@@ -52,6 +52,7 @@ public class TarefaDAO {
         }
     }
 
+    //Lista todas as tarefas cadastradas no banco de dados
     public List<Tarefa> listarTodas() {
         List<Tarefa> tarefaList = new ArrayList<>();
         String sql = "SELECT * FROM tarefas";
@@ -112,8 +113,6 @@ public class TarefaDAO {
             return false;
         }
     }
-
-
 
 
 }
